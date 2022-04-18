@@ -37,7 +37,7 @@ Hledání vložených souborů v binárních souborech
 
     useros@ubuntu:~/Stego$ binwalk --extract --dd=".*" {obrazek-s-tajnymi-soubory.jpg}
 
-**Vyzkoušej si to na přiloženém souboru:** [obrazek-pro-binwalk](obrazek-pro-binwalk.jpg)
+**Vyzkoušej si to na přiloženém souboru:** [obrazek-pro-binwalk](https://github.com/Filip-Dvorak/Steganografie/blob/main/obrazek-pro-binwalk.jpeg)
    
   ### Exiftool
   Čtení a úprava metadat. Metadata jsou data o datech.
