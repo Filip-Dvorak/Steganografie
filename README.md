@@ -55,5 +55,5 @@ Pro schování je nutné zadat heslo.
      useros@ubuntu:~/Stego$ steghide extract -sf {obrazek-pro-ukryti.jpg}
 Pro extrahování tajné zprávy z obrázku je nutné zadat správné heslo.
 
-**Vyzkoušej si to na přiloženém souboru:**[obrazek-pro-steghide](obrazek-pro-steghide.jpg)
+**Vyzkoušej si to na přiloženém souboru:**[obrazek-pro-steghide](https://github.com/Filip-Dvorak/Steganografie/blob/main/obrazek-pro-steghide.jpg)
 *(hint: heslo zjistíš použitím předchozích metod)*
