@@ -11,6 +11,7 @@ Steganografie je vědní disciplína zabývající se utajením komunikace prost
 # Digitální steganografie
 ## Obrázky
 - Ukrytí zprávy pomocí úpravy jednoho pixelu.
+
 ![enter image description here](https://cdn.discordapp.com/attachments/821112771763765248/965550512558710844/unknown.png)
 
 
@@ -22,6 +23,7 @@ Pokud ukryjeme data do třeba posledních dvou bitů každé barevné složky ob
 
 ## Zvuk
 Zvuk můžeme zobrazit ve spektrogramu a právě do něj můžeme vložit svoji zprávu.
+
 ![enter image description here](https://cdn.discordapp.com/attachments/821112771763765248/965552617579241472/unknown.png)
 ![enter image description here](https://cdn.discordapp.com/attachments/821112771763765248/965552687649259601/unknown.png)
 # Setganografické nástroje
