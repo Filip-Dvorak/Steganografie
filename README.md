@@ -27,3 +27,20 @@ Zvuk můžeme zobrazit ve spektrogramu a právě do něj můžeme vložit svoji 
 ![enter image description here](https://cdn.discordapp.com/attachments/821112771763765248/965552617579241472/unknown.png)
 ![enter image description here](https://cdn.discordapp.com/attachments/821112771763765248/965552687649259601/unknown.png)
 # Setganografické nástroje
+### Binwalk
+Hledání vložených souborů v binárních souborech
+
+    useros@ubuntu:~/Stego$ binwalk {obrazek-s-tajnymi-soubory.jpg}
+  ### Exiftool
+  Čtení a úprava metadat. Metadata jsou data o datech.
+  
+
+     useros@ubuntu:~/Stego$ eexiftool {obrazek-u-ktereho-chceme-zobrazit-metadata.png}
+### Steghide
+Nástroj pro schování zprávy do nejméně signifikantních bitů
+
+     useros@ubuntu:~/Stego$ steghide embed -cf {obrazek-pro-ukryti.jpg} -ef {tajna-zprava.txt}
+Pro schování je nutné zadat heslo.
+
+     useros@ubuntu:~/Stego$ steghide extract -sf {obrazek-pro-ukryti.jpg}
+Pro extrahování tajné zprávy z obrázku je nutné zadat správné heslo.
