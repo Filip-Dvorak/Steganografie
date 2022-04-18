@@ -45,7 +45,7 @@ Hledání vložených souborů v binárních souborech
 
      useros@ubuntu:~/Stego$ eexiftool {obrazek-u-ktereho-chceme-zobrazit-metadata.png}
 
-**Vyzkoušej si to na přiloženém souboru:** [obrazek-pro-exiftool](obrazek-pro-exiftool.png)
+**Vyzkoušej si to na přiloženém souboru:** [obrazek-pro-exiftool](https://github.com/Filip-Dvorak/Steganografie/blob/main/obrazek-pro-exiftool.png)
 ### Steghide
 Nástroj pro schování zprávy do nejméně signifikantních bitů
 
