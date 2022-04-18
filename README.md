@@ -31,11 +31,21 @@ Zvuk můžeme zobrazit ve spektrogramu a právě do něj můžeme vložit svoji 
 Hledání vložených souborů v binárních souborech
 
     useros@ubuntu:~/Stego$ binwalk {obrazek-s-tajnymi-soubory.jpg}
+    
+ Pro extrahování souboru je syntaxe:
+ 
+
+    useros@ubuntu:~/Stego$ binwalk --extract --dd=".*" {obrazek-s-tajnymi-soubory.jpg}
+
+**Vyzkoušej si to na přiloženém souboru:** [obrazek-pro-binwalk](obrazek-pro-binwalk.jpg)
+   
   ### Exiftool
   Čtení a úprava metadat. Metadata jsou data o datech.
   
 
      useros@ubuntu:~/Stego$ eexiftool {obrazek-u-ktereho-chceme-zobrazit-metadata.png}
+
+**Vyzkoušej si to na přiloženém souboru:** [obrazek-pro-exiftool](obrazek-pro-exiftool.png)
 ### Steghide
 Nástroj pro schování zprávy do nejméně signifikantních bitů
 
@@ -44,3 +54,6 @@ Pro schování je nutné zadat heslo.
 
      useros@ubuntu:~/Stego$ steghide extract -sf {obrazek-pro-ukryti.jpg}
 Pro extrahování tajné zprávy z obrázku je nutné zadat správné heslo.
+
+**Vyzkoušej si to na přiloženém souboru:**[obrazek-pro-steghide](obrazek-pro-steghide.jpg)
+*(hint: heslo zjistíš použitím předchozích metod)*
